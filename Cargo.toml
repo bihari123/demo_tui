@@ -1,0 +1,9 @@
+[package]
+name = "demo"
+version = "0.1.0"
+edition = "2021"
+authors=["Tarun Thakur <Bihari123@github.com>"]
+[dependencies]
+argh = "0.1.12"
+rand = "0.8.5"
+ratatui = { version = "0.28.1", features = ["all-widgets"] }
